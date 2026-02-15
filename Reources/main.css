@@ -1,0 +1,37 @@
+:root {
+    --text-color: #738942;
+    --link-color: #6B6943;
+    --background-color: #F7EFDA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Monserrat';
+    src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'MagicRetro';
+    src: url(Fonts/MagicRetro.ttf);
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-bg {
+  background-image: url("../Images/HomeBG.svg");
+}
