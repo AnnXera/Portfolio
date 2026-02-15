@@ -49,3 +49,14 @@ html {
         height: 223px;
     }
 }
+
+.skill-icon {
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .skill-icon {
+    font-size: 32px;
+  }
+}
+
