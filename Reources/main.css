@@ -14,12 +14,12 @@
 
 @font-face {
     font-family: 'Monserrat';
-    src: url(Fonts/Montserrat-VariableFont_wght.ttf);
+    src: url('../Fonts/Montserrat.ttf');
 }
 
 @font-face {
     font-family: 'MagicRetro';
-    src: url(Fonts/MagicRetro.ttf);
+    src: url('../Fonts/MagicRetro.ttf');
 }
 
 body {
@@ -32,6 +32,20 @@ html {
   scroll-behavior: smooth;
 }
 
-.hero-bg {
-  background-image: url("../Images/HomeBG.svg");
+#home {
+    background-image: url(../Images/HomeBG.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    #home {
+        background-image: url(../Images/MobileHeroBG.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 223px;
+    }
 }
